@@ -13,3 +13,12 @@ def greeting(*names):
 
 greeting('ali','ahmed','khan')#function call
 # Compare this snippet from dictionaries.py:
+def myfunc():
+    return 5+4
+print(myfunc())
+#functions are used to avoid repetition of code
+def addno(num1,num2):
+   return num1+num2
+print(addno(4,9))
+
+#we dont write anything after return
